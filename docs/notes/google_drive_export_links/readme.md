@@ -1,6 +1,3 @@
 ## Google Drive Export Links
 
-
-https://docs.google.com/spreadsheets/d/1xTXNtfabGIiFR9PdOQonmnlSPbhGcj_2Geo1v0cq4Gw/edit?usp=sharing
-
-https://sheets.googleapis.com/v4/spreadsheets/1xTXNtfabGIiFR9PdOQonmnlSPbhGcj_2Geo1v0cq4Gw/values/Sheet?key=
+Test link https://github.contributor.pw/contributorpw/notes/google_drive_export_links/app.html
