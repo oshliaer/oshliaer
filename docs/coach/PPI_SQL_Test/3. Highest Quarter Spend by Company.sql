@@ -1,4 +1,4 @@
-SELECT Companies.description,
+SELECT Companies.id, Companies.description,
   SUM(spend) FILTER (
     WHERE Trans.trx_date >= 20180101
       AND Trans.trx_date < 20180401
@@ -13,7 +13,7 @@ SELECT Companies.description,
   ) AS q3_spend,
   SUM(spend) FILTER (
     WHERE Trans.trx_date >= 20181001
-      AND Trans.trx_date < 2019101
+      AND Trans.trx_date < 20190101
   ) AS q4_spend
 FROM (
     SELECT *
@@ -21,4 +21,4 @@ FROM (
       LEFT JOIN Users ON Transactions.id_user = Users.id
   ) AS Trans
   LEFT JOIN Companies ON Trans.id_company = Companies.id
-GROUP BY Companies.description
+GROUP BY Companies.id, Companies.description
