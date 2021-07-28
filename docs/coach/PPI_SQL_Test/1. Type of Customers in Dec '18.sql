@@ -21,15 +21,16 @@ SELECT
 FROM 
   Transactions 
 WHERE 
-  trx_date >= 20181201 
-  AND trx_date < 20190101 
+  trx_date >= 20181101 
+  AND trx_date < 20181201 
   AND id_user IN (
     SELECT 
       id_user 
     FROM 
       Transactions 
     WHERE 
-      trx_date < 20181101
+      trx_date >= 20181201
+	  AND trx_date < 20190101
   ) 
 UNION 
 SELECT 
