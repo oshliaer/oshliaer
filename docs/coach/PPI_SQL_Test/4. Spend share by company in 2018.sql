@@ -2,7 +2,7 @@ SELECT Company_Annual_Revenue.id_company,
   company_name,
   spend_2018,
   Company_Annual_Revenue.revenue,
-  (spend_2018 / Company_Annual_Revenue.revenue * 100) AS share_spend_ar
+  ROUND(spend_2018 / Company_Annual_Revenue.revenue * 100) AS share_spend_ar
 FROM (
     SELECT SUM(spend) AS spend_2018,
       *,
