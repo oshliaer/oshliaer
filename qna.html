@@ -1,0 +1,31 @@
+<html>
+  <style>
+    body {
+      background: white;
+    }
+    section {
+      background: white;
+      color: black;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+  <body>
+    <section>
+      Пожалуйста, перейдите по ссылке <a id="redirect" href=""></a>
+    </section>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const params = new URL(document.location).searchParams;
+        const target = params.get('target');
+        const url = `https://contributor.pw/${target}`;
+        document.getElementById('redirect').setAttribute('href', url);
+        document.getElementById('redirect').innerHTML = url;
+        document.location.href = url;
+      });
+    </script>
+  </body>
+</html>
