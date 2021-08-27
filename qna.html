@@ -21,8 +21,11 @@
       document.addEventListener('DOMContentLoaded', () => {
         const params = new URL(document.location).searchParams;
         const target = params.get('target');
-        const part = params.get('part') || `https://contributor.pw`;
-        const url = `${part}/${target}`;
+        const domain = params.get('domain');
+
+        const url = `https://${
+          domain ? domain + '.' : ''
+        }contributor.pw/${target}`;
         document.getElementById('redirect').setAttribute('href', url);
         document.getElementById('redirect').innerHTML = url;
         document.location.href = url;
