@@ -1,6 +1,8 @@
 {
   "default": true,
-  "md041": {
+  "MD013": false,
+  "MD026": false,
+  "MD041": {
     "level": 2
   }
 }
