@@ -1,4 +1,4 @@
-## Multiple builds for an apps script priject
+## Multiple builds for an apps script project
 
 This script is specific to the project https://github.com/hedgehogsburrows/empty-google-apps-script-project and it's based on https://github.com/google/zx.
 

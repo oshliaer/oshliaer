@@ -6,6 +6,6 @@ Last updated: 2021-10-04 10:33:01
 
 ### Last items
 
-- [notes => apps-script => Multiple builds for an apps script priject](/raid/user/github.com/contributorpw/contributorpw/docs/notes/apps-script/empty_project_multy_prod.md)
+- [notes => apps-script => Multiple builds for an apps script project](docs/notes/apps-script/empty_project_multy_prod.md)
 - [notes => firebase => ⚠ firestore: Port 8080 is not open on localhost, could not start Firestore Emulator](docs/notes/firebase/could_not_start_firestore_emulator.md)
 - [notes => notion => Truncate a Notion database table](docs/notes/notion/notion-truncate_db.md)
