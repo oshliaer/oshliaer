@@ -1,6 +1,6 @@
 ## Deploy Yandex Cloud Function
 
-This script deploy the cf
+This script deploys the cf
 
 ```bash
 #!/bin/bash
