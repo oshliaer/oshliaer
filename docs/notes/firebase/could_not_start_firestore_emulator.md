@@ -9,7 +9,8 @@
 ### Kill the processes
 
 ```sh
-~ lsof -i :8080 | awk '$1=="java"' | tr -s ' ' | cut -d ' ' -f2 | xargs kill
+ lsof -i :8080 | awk '$1=="java"' | tr -s ' ' | cut -d ' ' -f2 | xargs kill &&\
+ lsof -i :9000 | awk '$1=="java"' | tr -s ' ' | cut -d ' ' -f2 | xargs kill
 ```
 
 ### Full error message
