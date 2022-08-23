@@ -6,6 +6,7 @@ Last updated: 2022-03-18 15:23:06
 
 ### Last items
 
+- [notes => yandex => cloud => storage => Upload files to storage](docs/notes/yandex/cloud/storage/upload_to_storage.md)
 - [notes => utf-8 => Stars utf-8 as rating visualization](docs/notes/utf-8/stars_as_rating.md)
 - [notes => yandex => cloud => functions => Upload a file via an HTML form (Yandex Cloud, nodejs)](docs/notes/yandex/cloud/functions/upload_file_via_form_node_cf.md)
 - [notes => yandex => cloud => functions => Deploy Yandex Cloud Function](docs/notes/yandex/cloud/functions/deploy_cf.md)
