@@ -63,8 +63,11 @@ function userActionCallUrl() {
 
 ### Жмем кнопку
 
-Как жать кнопку показано тут https://t.me/googleappsscriptrc/56026
+Как жать кнопку показано [тут][postlink]
+
+[![](https://cdn4.telegram-cdn.org/file/TbeLCP0SBsCzEirbVKdb3aytLb27iq_EpK-429XByEhQPp8b53DX_DLULSt_3R_sou2ZhTSjgaDgkbmXqx_DOcV0FoGt3tN8K9JUyl0mHjoGs1qBsLvurm31F65BK_H_nz-YnR1EMdECzZN0EWgwQ58awsmwVRSotiN1m3XyA_3Da2TpQU4R30u9ssXAr90-HkZZ37ysH3l3FgA05wAvENzbCe8v-iPgdS9dD7D-Lm-Y3onzrldDs1LG8qKCaeDxLggfZEJR_YOEf0FSu1rUXCohTRoQYsJNgfwepJwfAnKgs9IGIyz0EKASOOLvlj3lFg0EZmVjjDkevYDvAnOqLQ)][postlink]
 
 [nodejs]: https://nodejs.org/en/
 [express]: https://expressjs.com/
 [ngrok]: https://ngrok.com/
+[postlink]: https://t.me/gasru/381
