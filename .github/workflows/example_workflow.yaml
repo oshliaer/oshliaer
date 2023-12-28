@@ -1,0 +1,19 @@
+name: Generate Table Of Contents
+# Define when to run job here
+on: [push, pull_request]
+
+jobs:
+  example_job:
+    runs-on: ubuntu-latest
+    name: Runing Github Downloader
+    steps:
+      - uses: actions/checkout@v2
+      - uses: MarketingPipeline/TOC-Generator-Action@main
+        # Commit the updates
+      - name: Commit and Push Updated Table Of Contents
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Updated Table Of Contents"
+          git push
