@@ -1,6 +1,7 @@
 {
   "author": "",
   "dependencies": {
+    "markdown-toc-gen": "^1.0.1",
     "mustache": "^4.2.0",
     "recursive-readdir": "^2.2.3"
   },
