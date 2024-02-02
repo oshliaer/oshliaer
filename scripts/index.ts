@@ -25,7 +25,6 @@ async function run() {
         .slice(index + 1)
         .map((s) => s.replace(/\.md$/, ''))
         .join(' => ');
-      console.log(dictStats[str]);
       return {
         parts,
         title,
