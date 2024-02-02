@@ -1,5 +1,33 @@
 {
+  "author": "",
   "dependencies": {
-    "markdown-toc-gen": "^1.0.1"
-  }
+    "markdown-toc-gen": "^1.0.1",
+    "mustache": "^4.2.0",
+    "recursive-readdir": "^2.2.3"
+  },
+  "description": "Last updated: 2022-03-18 15:23:06",
+  "devDependencies": {
+    "@types/mustache": "^4.2.5",
+    "@types/node": "^20.11.16",
+    "@types/recursive-readdir": "^2.2.4",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "eslint": "^8.56.0",
+    "nodemon": "^3.0.3",
+    "recursive-readdir": "^2.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "oshliaer",
+  "scripts": {
+    "docs": "ts-node scripts/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
