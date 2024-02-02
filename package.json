@@ -1,7 +1,6 @@
 {
   "author": "",
   "dependencies": {
-    "markdown-toc-gen": "^1.0.1",
     "mustache": "^4.2.0",
     "recursive-readdir": "^2.2.3"
   },
@@ -23,7 +22,7 @@
   },
   "keywords": [],
   "license": "ISC",
-  "main": "index.js",
+  "main": "scripts/index.ts",
   "name": "oshliaer",
   "scripts": {
     "docs": "ts-node scripts/index.ts",
