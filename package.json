@@ -1,11 +1,15 @@
 {
   "author": "",
   "dependencies": {
+    "js-yaml": "^4.1.0",
+    "luxon": "^3.4.4",
     "mustache": "^4.2.0",
     "recursive-readdir": "^2.2.3"
   },
   "description": "Last updated: 2022-03-18 15:23:06",
   "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/luxon": "^3.4.2",
     "@types/mustache": "^4.2.5",
     "@types/node": "^20.11.16",
     "@types/recursive-readdir": "^2.2.4",
