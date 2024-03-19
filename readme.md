@@ -1,6 +1,8 @@
 ## Hi there!
 
-Last updated: 15.02.2024, 08:09
+Last updated: 24.02.2024, 14:42
+
+![oshliaer's StackOverflow badge](https://stackexchange.com/users/flair/1484496.png)
 
 ![Sheets Edit Event](https://en1t1jt2c6ghd7u.m.pipedream.net)
 
