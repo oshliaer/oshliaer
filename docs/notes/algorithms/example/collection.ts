@@ -1,14 +1,9 @@
-export type CollectionType = string | Date | number | boolean;
+export type CollectionType = string | number | boolean | Date;
 
 export interface CollectionItemValue {
   __val: unknown;
   __row: number;
   __col: number;
-}
-
-export interface CollectionItemValueModified extends CollectionItemValue {
-  __oldValue: unknown;
-  __modified: boolean;
 }
 
 export interface CollectionItem {
