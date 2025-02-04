@@ -1,7 +1,7 @@
 export type CollectionType = string | number | boolean | Date;
 
 export interface CollectionItemValue {
-  __val: unknown;
+  __val: CollectionType;
   __row: number;
   __col: number;
 }
