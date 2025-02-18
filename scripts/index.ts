@@ -91,6 +91,8 @@ async function run() {
 
   const tempalte = await fsp.readFile(path.join('./scripts/templates/readme.md'), 'utf8');
 
+  DateTime.local().setZone('Europe/Moscow');
+
   const doc = mustashe.render(tempalte, {
     lastItems: lastItemsValue,
     lastUpdated: DateTime.now().setLocale('ru-RU').toLocaleString(DateTime.DATETIME_SHORT),
