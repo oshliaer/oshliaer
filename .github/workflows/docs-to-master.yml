@@ -39,5 +39,5 @@ jobs:
         run: |
           git fetch origin master:master
           git checkout master
-          git merge --no-ff docs -m "Merge docs branch"
+          git merge -X theirs --no-ff docs -m "Merge docs branch"
           git push origin master
