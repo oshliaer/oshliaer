@@ -1,0 +1,43 @@
+name: Update Docs
+
+on:
+  push:
+    branches:
+      - docs
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 'latest'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate docs
+        run: npm run docs
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "docs: update documentation" || echo "No changes to commit"
+
+      - name: Push to master
+        run: |
+          git fetch origin master:master
+          git checkout master
+          git merge --no-ff docs -m "Merge docs branch"
+          git push origin master
