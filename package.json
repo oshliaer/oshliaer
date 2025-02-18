@@ -4,7 +4,9 @@
     "js-yaml": "^4.1.0",
     "luxon": "^3.4.4",
     "mustache": "^4.2.0",
-    "recursive-readdir": "^2.2.3"
+    "recursive-readdir": "^2.2.3",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
   },
   "description": "Last updated: 2022-03-18 15:23:06",
   "devDependencies": {
@@ -17,9 +19,6 @@
     "@typescript-eslint/parser": "^6.20.0",
     "eslint": "^8.56.0",
     "nodemon": "^3.0.3",
-    "recursive-readdir": "^2.2.3",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
   },
   "directories": {
     "doc": "docs"
