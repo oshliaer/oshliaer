@@ -1,11 +1,10 @@
-import path from 'path';
 import * as fs from 'fs';
 import * as fsp from 'fs/promises';
-import rec from 'recursive-readdir';
-import mustashe from 'mustache';
-import * as yaml from 'js-yaml';
-import { loadFront } from './services/yaml-front-matter';
 import { DateTime } from 'luxon';
+import mustashe from 'mustache';
+import path from 'path';
+import rec from 'recursive-readdir';
+import { loadFront } from './services/yaml-front-matter';
 
 type Post = {
   date?: Date;
@@ -91,11 +90,12 @@ async function run() {
 
   const tempalte = await fsp.readFile(path.join('./scripts/templates/readme.md'), 'utf8');
 
-  DateTime.local().setZone('Europe/Moscow');
+  // Create DateTime instance with Moscow timezone
+  const moscowTime = DateTime.now().setZone('Europe/Moscow');
 
   const doc = mustashe.render(tempalte, {
     lastItems: lastItemsValue,
-    lastUpdated: DateTime.now().setLocale('ru-RU').toLocaleString(DateTime.DATETIME_SHORT),
+    lastUpdated: moscowTime.setLocale('ru-RU').toLocaleString(DateTime.DATETIME_SHORT),
   });
 
   fsp.writeFile(path.join('./readme.md'), doc, 'utf8');
