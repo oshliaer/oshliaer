@@ -1,6 +1,8 @@
 ## Hi there!
 
-Last updated: 20.02.2025, 11:06
+I'm Alex
+
+Last updated: 20.02.2025, 11:08
 
 ![oshliaer's StackOverflow badge](https://stackexchange.com/users/flair/1484496.png)
 
