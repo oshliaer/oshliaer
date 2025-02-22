@@ -85,7 +85,7 @@ async function run() {
       return 0;
     })
     .slice(0, 10)
-    .map((part) => `- ${anyToDate(part.data.date, '', ' ')}[${part.title}](${part.link})`)
+    .map((part) => `- ${anyToDate(part.data.date, '', ' ')}[${part.title}](${part.link.replaceAll(' ', '%20')})`)
     .join('\n');
 
   const tempalte = await fsp.readFile(path.join('./scripts/templates/readme.md'), 'utf8');
