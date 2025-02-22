@@ -10,4 +10,4 @@ Last updated: {{lastUpdated}}
 
 ### Last items
 
-{{lastItems}}
+{{{lastItems}}}
