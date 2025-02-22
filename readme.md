@@ -2,7 +2,7 @@
 
 I'm Alex
 
-Last updated: 22.02.2025, 20:54
+Last updated: 22.02.2025, 21:00
 
 ![oshliaer's StackOverflow badge](https://stackexchange.com/users/flair/1484496.png)
 
@@ -17,6 +17,6 @@ Last updated: 22.02.2025, 20:54
 - 2024-02-07 [notes &#x3D;&gt; apps-script &#x3D;&gt; simple-webapp](docs&#x2F;notes&#x2F;apps-script&#x2F;simple-webapp.md)
 - 2021-07-28 [notes &#x3D;&gt; apps-script &#x3D;&gt; 2021-07-28_how-to-find-the-longest-substring-that-consists-of-the-same-char](docs&#x2F;notes&#x2F;apps-script&#x2F;2021-07-28_how-to-find-the-longest-substring-that-consists-of-the-same-char.md)
 - [en &#x3D;&gt; The first Repository Analysis Report](docs&#x2F;en&#x2F;The first Repository Analysis Report.md)
+- [en &#x3D;&gt; The second Repository Analysis Report](docs&#x2F;en&#x2F;The second Repository Analysis Report.md)
 - [community &#x3D;&gt; generate_email_message_body_by_group_rows &#x3D;&gt; readme](docs&#x2F;community&#x2F;generate_email_message_body_by_group_rows&#x2F;readme.md)
 - [notes &#x3D;&gt; send_message_when_yandex_tracker_queue_triggered_using_telegram_bot](docs&#x2F;notes&#x2F;send_message_when_yandex_tracker_queue_triggered_using_telegram_bot.md)
-- [notes &#x3D;&gt; firebase &#x3D;&gt; could_not_start_firestore_emulator](docs&#x2F;notes&#x2F;firebase&#x2F;could_not_start_firestore_emulator.md)
