@@ -2,7 +2,7 @@
 
 I'm Alex
 
-Last updated: 28.04.2025, 08:56
+Last updated: 28.04.2025, 08:57
 
 ![oshliaer's StackOverflow badge](https://stackexchange.com/users/flair/1484496.png)
 
@@ -19,4 +19,4 @@ Last updated: 28.04.2025, 08:56
 - 2024-02-12 [notes => apps-script => фильтр-сегодня-для-gmail](docs/notes/apps-script/фильтр-сегодня-для-gmail.md)
 - 2024-02-07 [notes => apps-script => simple-webapp](docs/notes/apps-script/simple-webapp.md)
 - 2021-07-28 [notes => apps-script => 2021-07-28_how-to-find-the-longest-substring-that-consists-of-the-same-char](docs/notes/apps-script/2021-07-28_how-to-find-the-longest-substring-that-consists-of-the-same-char.md)
-- [community => generate_email_message_body_by_group_rows => readme](docs/community/generate_email_message_body_by_group_rows/readme.md)
+- [mpmr => _index](docs/mpmr/_index.md)
