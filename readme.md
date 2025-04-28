@@ -2,7 +2,7 @@
 
 I'm Alex
 
-Last updated: 28.04.2025, 08:57
+Last updated: 28.04.2025, 09:30
 
 ![oshliaer's StackOverflow badge](https://stackexchange.com/users/flair/1484496.png)
 
@@ -11,6 +11,7 @@ Last updated: 28.04.2025, 08:57
 ### Last items
 
 - 2025-04-28 [notes => apps-script => обновление-гугл-контактов-на-основе-внешних-данных](docs/notes/apps-script/обновление-гугл-контактов-на-основе-внешних-данных.md)
+- 2025-04-28 [notes => ci-cd => как-работает-docs-to-master](docs/notes/ci-cd/как-работает-docs-to-master.md)
 - 2025-02-22 [en => repository content analysis => The first Repository Analysis Report](docs/en/repository%20content%20analysis/The%20first%20Repository%20Analysis%20Report.md)
 - 2025-02-22 [en => repository content analysis => The second Repository Analysis Report](docs/en/repository%20content%20analysis/The%20second%20Repository%20Analysis%20Report.md)
 - 2025-02-18 [notes => injektsiya-zavisimostey-i-sozdanie-novykh-servisov](docs/notes/injektsiya-zavisimostey-i-sozdanie-novykh-servisov.md)
@@ -19,4 +20,3 @@ Last updated: 28.04.2025, 08:57
 - 2024-02-12 [notes => apps-script => фильтр-сегодня-для-gmail](docs/notes/apps-script/фильтр-сегодня-для-gmail.md)
 - 2024-02-07 [notes => apps-script => simple-webapp](docs/notes/apps-script/simple-webapp.md)
 - 2021-07-28 [notes => apps-script => 2021-07-28_how-to-find-the-longest-substring-that-consists-of-the-same-char](docs/notes/apps-script/2021-07-28_how-to-find-the-longest-substring-that-consists-of-the-same-char.md)
-- [mpmr => _index](docs/mpmr/_index.md)
