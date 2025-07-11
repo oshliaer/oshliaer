@@ -1,6 +1,6 @@
 ---
 date: 2025-07-11
-title: Как настроить прокси для Google Apps Script через Yandex.Cloud: Основное руководство
+title: 'Как настроить прокси для Google Apps Script через Yandex.Cloud: Основное руководство'
 ---
 
 ## Введение
