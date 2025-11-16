@@ -2,7 +2,7 @@
 
 I'm Alex
 
-Last updated: 16.11.2025, 20:57
+Last updated: 16.11.2025, 22:44
 
 ![oshliaer's StackOverflow badge](https://stackexchange.com/users/flair/1484496.png)
 
@@ -10,6 +10,7 @@ Last updated: 16.11.2025, 20:57
 
 ### Last items
 
+- 2025-11-16 [lists => literature-for-7th-grade](docs/lists/literature-for-7th-grade.md)
 - 2025-11-16 [notes => sheets => google-sheets-api-dates](docs/notes/sheets/google-sheets-api-dates.md)
 - 2025-07-11 [notes => apps-script => как_настроить_прокси_для_google_apps_script](docs/notes/apps-script/как_настроить_прокси_для_google_apps_script.md)
 - 2025-07-01 [notes => js => способы-модификации-и-расширения-классов-в-javascript](docs/notes/js/способы-модификации-и-расширения-классов-в-javascript.md)
@@ -19,4 +20,3 @@ Last updated: 16.11.2025, 20:57
 - 2025-02-22 [en => repository content analysis => The first Repository Analysis Report](docs/en/repository%20content%20analysis/The%20first%20Repository%20Analysis%20Report.md)
 - 2025-02-22 [en => repository content analysis => The second Repository Analysis Report](docs/en/repository%20content%20analysis/The%20second%20Repository%20Analysis%20Report.md)
 - 2025-02-18 [notes => injektsiya-zavisimostey-i-sozdanie-novykh-servisov](docs/notes/injektsiya-zavisimostey-i-sozdanie-novykh-servisov.md)
-- 2025-02-04 [notes => algorithms => простое-сравнение-массивов](docs/notes/algorithms/простое-сравнение-массивов.md)

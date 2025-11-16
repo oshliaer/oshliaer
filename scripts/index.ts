@@ -98,7 +98,7 @@ async function run() {
     lastUpdated: moscowTime.setLocale('ru-RU').toLocaleString(DateTime.DATETIME_SHORT),
   });
 
-  fsp.writeFile(path.join('./readme.md'), doc, 'utf8');
+  fsp.writeFile(path.join('./README.md'), doc, 'utf8');
 }
 
 run();
