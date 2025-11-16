@@ -2,7 +2,7 @@
 
 I'm Alex
 
-Last updated: 01.07.2025, 16:59
+Last updated: 16.11.2025, 20:55
 
 ![oshliaer's StackOverflow badge](https://stackexchange.com/users/flair/1484496.png)
 
@@ -10,6 +10,7 @@ Last updated: 01.07.2025, 16:59
 
 ### Last items
 
+- 2025-07-11 [notes => apps-script => как_настроить_прокси_для_google_apps_script](docs/notes/apps-script/как_настроить_прокси_для_google_apps_script.md)
 - 2025-07-01 [notes => js => способы-модификации-и-расширения-классов-в-javascript](docs/notes/js/способы-модификации-и-расширения-классов-в-javascript.md)
 - 2025-06-24 [notes => n8n => добавление-redis-к-n8n](docs/notes/n8n/добавление-redis-к-n8n.md)
 - 2025-04-28 [notes => apps-script => обновление-гугл-контактов-на-основе-внешних-данных](docs/notes/apps-script/обновление-гугл-контактов-на-основе-внешних-данных.md)
@@ -19,4 +20,3 @@ Last updated: 01.07.2025, 16:59
 - 2025-02-18 [notes => injektsiya-zavisimostey-i-sozdanie-novykh-servisov](docs/notes/injektsiya-zavisimostey-i-sozdanie-novykh-servisov.md)
 - 2025-02-04 [notes => algorithms => простое-сравнение-массивов](docs/notes/algorithms/простое-сравнение-массивов.md)
 - 2024-02-15 [notes => sheets => прф](docs/notes/sheets/прф.md)
-- 2024-02-12 [notes => apps-script => фильтр-сегодня-для-gmail](docs/notes/apps-script/фильтр-сегодня-для-gmail.md)
