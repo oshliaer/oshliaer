@@ -2,7 +2,7 @@
 
 I'm Alex
 
-Last updated: 16.11.2025, 23:38
+Last updated: 17.11.2025, 00:03
 
 ![oshliaer's StackOverflow badge](https://stackexchange.com/users/flair/1484496.png)
 
@@ -10,8 +10,8 @@ Last updated: 16.11.2025, 23:38
 
 ### Last items
 
-- 2025-11-16 [lists => literature-for-7th-grade](docs/lists/literature-for-7th-grade.md)
 - 2025-11-16 [lists => literature-for-8th-grade](docs/lists/literature-for-8th-grade.md)
+- 2025-11-16 [lists => literature-for-7th-grade](docs/lists/literature-for-7th-grade.md)
 - 2025-11-16 [notes => sheets => google-sheets-api-dates](docs/notes/sheets/google-sheets-api-dates.md)
 - 2025-07-11 [notes => apps-script => как_настроить_прокси_для_google_apps_script](docs/notes/apps-script/как_настроить_прокси_для_google_apps_script.md)
 - 2025-07-01 [notes => js => способы-модификации-и-расширения-классов-в-javascript](docs/notes/js/способы-модификации-и-расширения-классов-в-javascript.md)
