@@ -88,7 +88,7 @@ async function run() {
     .map((part) => `- ${anyToDate(part.data.date, '', ' ')}[${part.title}](${part.link.replaceAll(' ', '%20')})`)
     .join('\n');
 
-  const tempalte = await fsp.readFile(path.join('./scripts/templates/README.md'), 'utf8');
+  const tempalte = await fsp.readFile(path.join('./scripts/templates/readme.md'), 'utf8');
 
   // Create DateTime instance with Moscow timezone
   const moscowTime = DateTime.now().setZone('Europe/Moscow');
