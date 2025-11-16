@@ -14,6 +14,8 @@ The project uses the following technologies:
 
 ## Building and Running
 
+DO NOT RUN THIS CODE LOCALLY. This code is intended to be run in a controlled environment.
+
 The primary script in this project is the `docs` script, which generates the `README.md` file. To run the script, use the following command:
 
 ```bash
