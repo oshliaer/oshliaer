@@ -1,3 +1,8 @@
+---
+date: 2025-11-16
+title: "📌 Резюме: даты Google Sheets ↔ JS `Date`"
+---
+
 # 📌 Резюме: даты Google Sheets ↔ JS `Date`
 
 ## Как хранит Google Sheets
