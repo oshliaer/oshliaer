@@ -12,19 +12,11 @@ The project uses the following technologies:
 *   **js-yaml:** For parsing YAML front-matter from the Markdown files.
 *   **luxon:** For handling dates and times.
 
-## Building and Running
+## Automation
 
-DO NOT RUN THIS CODE LOCALLY. This code is intended to be run in a controlled environment.
+The `README.md` file is generated automatically by a GitHub Actions workflow defined in `.github/workflows/docs-to-master.yml`. This workflow runs whenever changes are pushed to the `docs` branch.
 
-The primary script in this project is the `docs` script, which generates the `README.md` file. To run the script, use the following command:
-
-```bash
-npm run docs
-```
-
-This will execute the `scripts/index.ts` file, which reads all the Markdown files in the `docs` directory, extracts their front-matter, sorts them by date, and then generates a new `README.md` file based on the `scripts/templates/README.md` template.
-
-There are no other build or run commands for this project.
+**DO NOT run the `npm run docs` command manually.** The automated workflow handles the generation and deployment of the `README.md` file.
 
 ## Development Conventions
 
@@ -38,4 +30,4 @@ date: 2025-08-25
 ```
 
 *   The `title` of the entry is automatically inferred from the file path.
-*   After adding or updating a file in the `docs` directory, run the `npm run docs` command to update the `README.md` file.
+*   For the "Список прочитанного" (e.g., `docs/lists/read.md`), new entries should be added to the top of the list, so that earlier read books appear at the bottom.

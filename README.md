@@ -2,7 +2,7 @@
 
 I'm Alex
 
-Last updated: 17.11.2025, 00:18
+Last updated: 17.11.2025, 10:48
 
 ![oshliaer's StackOverflow badge](https://stackexchange.com/users/flair/1484496.png)
 
@@ -10,8 +10,9 @@ Last updated: 17.11.2025, 00:18
 
 ### Last items
 
-- 2025-11-16 [lists => literature-for-8th-grade](docs/lists/literature-for-8th-grade.md)
+- 2025-11-17 [lists => read](docs/lists/read.md)
 - 2025-11-16 [lists => literature-for-7th-grade](docs/lists/literature-for-7th-grade.md)
+- 2025-11-16 [lists => literature-for-8th-grade](docs/lists/literature-for-8th-grade.md)
 - 2025-11-16 [notes => sheets => google-sheets-api-dates](docs/notes/sheets/google-sheets-api-dates.md)
 - 2025-07-11 [notes => apps-script => как_настроить_прокси_для_google_apps_script](docs/notes/apps-script/как_настроить_прокси_для_google_apps_script.md)
 - 2025-07-01 [notes => js => способы-модификации-и-расширения-классов-в-javascript](docs/notes/js/способы-модификации-и-расширения-классов-в-javascript.md)
@@ -19,4 +20,3 @@ Last updated: 17.11.2025, 00:18
 - 2025-04-28 [notes => ci-cd => как-работает-docs-to-master](docs/notes/ci-cd/как-работает-docs-to-master.md)
 - 2025-04-28 [notes => apps-script => обновление-гугл-контактов-на-основе-внешних-данных](docs/notes/apps-script/обновление-гугл-контактов-на-основе-внешних-данных.md)
 - 2025-02-22 [en => repository content analysis => The first Repository Analysis Report](docs/en/repository%20content%20analysis/The%20first%20Repository%20Analysis%20Report.md)
-- 2025-02-22 [en => repository content analysis => The second Repository Analysis Report](docs/en/repository%20content%20analysis/The%20second%20Repository%20Analysis%20Report.md)
