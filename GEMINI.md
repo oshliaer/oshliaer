@@ -30,5 +30,5 @@ date: 2025-08-25
 ```
 
 *   The `title` of the entry is automatically inferred from the file path.
-*   For the "Список прочитанного" (e.g., `docs/lists/read.md`), new entries should be added to the top of the list, so that earlier read books appear at the bottom.
+*   For the "Список прочитанного" (e.g., `docs/lists/_read.md`), new entries should be added to the top of the list, so that earlier read books appear at the bottom.
 *   When the user says "before" (перед) in the context of a list, it means the new item should be placed *lower* in the list.
