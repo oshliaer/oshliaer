@@ -30,5 +30,41 @@ date: 2025-08-25
 ```
 
 *   The `title` of the entry is automatically inferred from the file path.
-*   For the "Список прочитанного" (e.g., `docs/lists/read.md`), new entries should be added to the top of the list, so that earlier read books appear at the bottom.
+*   For the "Список прочитанного" (e.g., `docs/lists/_read.md`), new entries should be added to the top of the list, so that earlier read books appear at the bottom.
 *   When the user says "before" (перед) in the context of a list, it means the new item should be placed *lower* in the list.
+
+## Reading Lists
+
+### Lists for Reading
+
+*   Lists for reading are located in the `docs/lists/` directory.
+*   These can be any kind of reading lists (e.g., grade-specific, thematic, etc.).
+*   Lists may have headers dividing them into required reading, additional independent reading, etc.
+*   All lists are at the same level in the directory.
+
+### List of Read Books
+
+*   The file `docs/lists/_read.md` contains the list of completed readings.
+*   Books are added to this list in reverse chronological order (newest first), which is achieved by using the `reversed` attribute in the `<ol>` tag.
+*   The list is grouped by year with `## YYYY` headers.
+*   Each entry has the format:
+
+```html
+<li>Author's Last Name, First Name Patronymic (original name, if pseudonym) - "Title of Work" <!-- NN --></li>
+```
+
+*   To add a book to the list, find its exact title and author in one of the reading lists in `docs/lists/`, and add it to the top of the list in `_read.md` (which means it will appear first when the list is reversed and numbered).
+*   The numbering comment (e.g., `<!-- 27 -->`) should be increased to maintain correct sequence.
+*   Books are added by users in a conversational style (e.g., "I read the friend Sancho, add it"), and the system should find the exact title and author in the lists and add the formatted entry to `_read.md`.
+
+### Removing Books from Lists
+
+*   Books can be removed from lists in `docs/lists/` if requested.
+
+### Working with Lists
+
+*   When updating the list of read books:
+*   Always verify that the book exists in one of the reading lists before adding it to `_read.md`.
+*   Use the exact title and author as they appear in the original list.
+*   Maintain correct numbering sequence in the `<ol reversed>` list.
+*   Place new entries at the top of the list in the file (which makes them appear first when the list is reversed).
