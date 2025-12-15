@@ -2,7 +2,7 @@
 
 I'm Alex
 
-Last updated: 15.12.2025, 08:27
+Last updated: 15.12.2025, 08:34
 
 ![oshliaer's StackOverflow badge](https://stackexchange.com/users/flair/1484496.png)
 
@@ -10,7 +10,7 @@ Last updated: 15.12.2025, 08:27
 
 ### Last items
 
-- 2025-11-17 [lists => _read](docs/lists/_read.md)
+- 2025-11-17 [lists => 0read](docs/lists/0read.md)
 - 2025-11-16 [lists => literature-for-7th-grade](docs/lists/literature-for-7th-grade.md)
 - 2025-11-16 [lists => literature-for-8th-grade](docs/lists/literature-for-8th-grade.md)
 - 2025-11-16 [notes => sheets => google-sheets-api-dates](docs/notes/sheets/google-sheets-api-dates.md)
