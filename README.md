@@ -2,7 +2,7 @@
 
 I'm Alex
 
-Last updated: 15.12.2025, 08:34
+Last updated: 16.12.2025, 13:33
 
 ![oshliaer's StackOverflow badge](https://stackexchange.com/users/flair/1484496.png)
 
@@ -10,6 +10,7 @@ Last updated: 15.12.2025, 08:34
 
 ### Last items
 
+- 2025-12-16 [notes => ssh => ssh_agent_guide](docs/notes/ssh/ssh_agent_guide.md)
 - 2025-11-17 [lists => 0read](docs/lists/0read.md)
 - 2025-11-16 [lists => literature-for-7th-grade](docs/lists/literature-for-7th-grade.md)
 - 2025-11-16 [lists => literature-for-8th-grade](docs/lists/literature-for-8th-grade.md)
@@ -18,5 +19,3 @@ Last updated: 15.12.2025, 08:34
 - 2025-07-01 [notes => js => способы-модификации-и-расширения-классов-в-javascript](docs/notes/js/способы-модификации-и-расширения-классов-в-javascript.md)
 - 2025-06-24 [notes => n8n => добавление-redis-к-n8n](docs/notes/n8n/добавление-redis-к-n8n.md)
 - 2025-04-28 [notes => ci-cd => как-работает-docs-to-master](docs/notes/ci-cd/как-работает-docs-to-master.md)
-- 2025-04-28 [notes => apps-script => обновление-гугл-контактов-на-основе-внешних-данных](docs/notes/apps-script/обновление-гугл-контактов-на-основе-внешних-данных.md)
-- 2025-02-22 [en => repository content analysis => The first Repository Analysis Report](docs/en/repository%20content%20analysis/The%20first%20Repository%20Analysis%20Report.md)
