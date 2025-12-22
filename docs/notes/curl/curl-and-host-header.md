@@ -3,11 +3,13 @@
 ## HTTP-методы: GET и POST
 
 **GET** — получить данные:
+
 ```bash
 curl -X GET "http://example.com/api/users"
 ```
 
 **POST** — отправить данные:
+
 ```bash
 curl -X POST "http://example.com/api/users" \
   -H "Content-Type: application/json" \
@@ -15,6 +17,7 @@ curl -X POST "http://example.com/api/users" \
 ```
 
 Основные флаги:
+
 - `-X` — метод (GET, POST, PUT, DELETE)
 - `-H` — заголовок
 - `-d` — тело запроса (данные)
@@ -42,16 +45,16 @@ curl -H "Host: example.com" http://example.com/api/users
 
 ```
 IP: 10.145.16.60
-├── mp-data.googlesheets.ru
-├── vk-gateway.googlesheets.ru
-└── api.googlesheets.ru
+├── mp-data.example.com
+├── vk-gateway.example.com
+└── api.example.com
 ```
 
 Nginx (reverse proxy) смотрит на заголовок `Host` и решает куда направить запрос:
 
 ```
-Host: mp-data.googlesheets.ru → контейнер mp-data
-Host: vk-gateway.googlesheets.ru → контейнер vk-gateway
+Host: mp-data.example.com → контейнер mp-data
+Host: vk-gateway.example.com → контейнер vk-gateway
 ```
 
 ### Когда нужно указывать Host вручную?
@@ -60,11 +63,11 @@ Host: vk-gateway.googlesheets.ru → контейнер vk-gateway
 
 ```bash
 # Не работает — DNS не знает этот домен внутри сети
-curl http://mp-data.googlesheets.ru/api/jobs
+curl http://mp-data.example.com/api/jobs
 
 # Работает — идём на IP, но говорим nginx какой сервис нужен
 curl http://10.145.16.60/api/jobs \
-  -H "Host: mp-data.googlesheets.ru"
+  -H "Host: mp-data.example.com"
 ```
 
 ### Схема запроса
@@ -89,20 +92,21 @@ MP Data API на внутренней сети:
 
 ```bash
 # Внешний запрос (через интернет) — Host подставляется автоматически
-curl https://mp-data.googlesheets.ru/api/jobs/batch
+curl https://mp-data.example.com/api/jobs/batch
 
 # Внутренний запрос (внутри сети) — нужен Host вручную
 curl http://10.145.16.60/api/jobs/batch \
-  -H "Host: mp-data.googlesheets.ru" \
+  -H "Host: mp-data.example.com" \
   -H "Content-Type: application/json" \
   -H "X-API-Key: sk_live_..." \
   -d '{"skus": ["123"]}'
 ```
 
 В коде это решается через переменные:
+
 ```
 MP_DATA_BASE_URL=http://10.145.16.60      # куда идёт запрос
-MP_DATA_HOST=mp-data.googlesheets.ru       # что в заголовке Host
+MP_DATA_HOST=mp-data.example.com       # что в заголовке Host
 ```
 
 ## Резюме
