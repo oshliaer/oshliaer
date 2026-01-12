@@ -68,3 +68,6 @@ date: 2025-08-25
 *   Use the exact title and author as they appear in the original list.
 *   Maintain correct numbering sequence in the `<ol reversed>` list.
 *   Place new entries at the top of the list in the file (which makes them appear first when the list is reversed).
+*   When adding new entries, assign them sequential numbers starting from (highest_number_in_current_year_section + 1).
+*   For example, if the highest number in 2026 section is <!-- 3 -->, then the next added book should receive <!-- 4 -->, the following <!-- 5 -->, etc.
+*   Existing entries' numbers remain unchanged when new entries are added.
