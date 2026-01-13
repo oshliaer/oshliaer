@@ -2,7 +2,7 @@
 
 I'm Alex
 
-Last updated: 13.01.2026, 12:57
+Last updated: 13.01.2026, 13:00
 
 ![oshliaer's StackOverflow badge](https://stackexchange.com/users/flair/1484496.png)
 
@@ -19,4 +19,3 @@ Last updated: 13.01.2026, 12:57
 - 2025-07-01 [notes => js => способы-модификации-и-расширения-классов-в-javascript](docs/notes/js/способы-модификации-и-расширения-классов-в-javascript.md)
 - 2025-06-24 [notes => n8n => добавление-redis-к-n8n](docs/notes/n8n/добавление-redis-к-n8n.md)
 - 2025-04-28 [notes => ci-cd => как-работает-docs-to-master](docs/notes/ci-cd/как-работает-docs-to-master.md)
-- 2025-04-28 [notes => apps-script => обновление-гугл-контактов-на-основе-внешних-данных](docs/notes/apps-script/обновление-гугл-контактов-на-основе-внешних-данных.md)
