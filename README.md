@@ -2,7 +2,7 @@
 
 I'm Alex
 
-Last updated: 01.07.2025, 16:59
+Last updated: 14.01.2026, 09:36
 
 ![oshliaer's StackOverflow badge](https://stackexchange.com/users/flair/1484496.png)
 
@@ -10,13 +10,13 @@ Last updated: 01.07.2025, 16:59
 
 ### Last items
 
+- 2025-12-16 [notes => ssh => ssh_agent_guide](docs/notes/ssh/ssh_agent_guide.md)
+- 2025-11-17 [lists => 0read](docs/lists/0read.md)
+- 2025-11-16 [lists => literature-for-7th-grade](docs/lists/literature-for-7th-grade.md)
+- 2025-11-16 [lists => literature-for-8th-grade](docs/lists/literature-for-8th-grade.md)
+- 2025-11-16 [notes => sheets => google-sheets-api-dates](docs/notes/sheets/google-sheets-api-dates.md)
+- 2025-07-11 [notes => apps-script => как_настроить_прокси_для_google_apps_script](docs/notes/apps-script/как_настроить_прокси_для_google_apps_script.md)
 - 2025-07-01 [notes => js => способы-модификации-и-расширения-классов-в-javascript](docs/notes/js/способы-модификации-и-расширения-классов-в-javascript.md)
 - 2025-06-24 [notes => n8n => добавление-redis-к-n8n](docs/notes/n8n/добавление-redis-к-n8n.md)
 - 2025-04-28 [notes => apps-script => обновление-гугл-контактов-на-основе-внешних-данных](docs/notes/apps-script/обновление-гугл-контактов-на-основе-внешних-данных.md)
 - 2025-04-28 [notes => ci-cd => как-работает-docs-to-master](docs/notes/ci-cd/как-работает-docs-to-master.md)
-- 2025-02-22 [en => repository content analysis => The first Repository Analysis Report](docs/en/repository%20content%20analysis/The%20first%20Repository%20Analysis%20Report.md)
-- 2025-02-22 [en => repository content analysis => The second Repository Analysis Report](docs/en/repository%20content%20analysis/The%20second%20Repository%20Analysis%20Report.md)
-- 2025-02-18 [notes => injektsiya-zavisimostey-i-sozdanie-novykh-servisov](docs/notes/injektsiya-zavisimostey-i-sozdanie-novykh-servisov.md)
-- 2025-02-04 [notes => algorithms => простое-сравнение-массивов](docs/notes/algorithms/простое-сравнение-массивов.md)
-- 2024-02-15 [notes => sheets => прф](docs/notes/sheets/прф.md)
-- 2024-02-12 [notes => apps-script => фильтр-сегодня-для-gmail](docs/notes/apps-script/фильтр-сегодня-для-gmail.md)
