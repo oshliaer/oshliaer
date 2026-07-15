@@ -2,7 +2,7 @@
 
 I'm Alex
 
-Last updated: 14.01.2026, 09:36
+Last updated: 15.07.2026, 22:21
 
 ![oshliaer's StackOverflow badge](https://stackexchange.com/users/flair/1484496.png)
 
@@ -10,6 +10,7 @@ Last updated: 14.01.2026, 09:36
 
 ### Last items
 
+- 2026-07-15 [yt-digest => why-ai-is-making-senior-developer-mean-something-else](docs/yt-digest/why-ai-is-making-senior-developer-mean-something-else.md)
 - 2025-12-16 [notes => ssh => ssh_agent_guide](docs/notes/ssh/ssh_agent_guide.md)
 - 2025-11-17 [lists => 0read](docs/lists/0read.md)
 - 2025-11-16 [lists => literature-for-7th-grade](docs/lists/literature-for-7th-grade.md)
